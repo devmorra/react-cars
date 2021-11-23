@@ -1,12 +1,15 @@
 import React from 'react';
 // import {makeStyles} from '@mui/styles';
-import {Button} from '@mui/material';
+import carsit from '../../assets/images/car.png';
 
 
 export const Home = () =>{
     return(
         <div>
-            WOW
+        <title>CAR HOME</title>
+        WOW
+        <img src={carsit}></img>
+            
         </div>
     )
 }
