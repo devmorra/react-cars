@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button} from '@mui/material';
+import {DataTable} from '../DataTable'
 
 interface Props{
     data: Array<Object>;
@@ -8,7 +9,8 @@ interface Props{
 export const Dashboard = (props: Props) =>{
     return(
         <div>
-            Nothing here until we populate it with data
+            <h1>Placeholder data pending API implementation</h1>
+            <DataTable/>
         </div>
     )
 }
